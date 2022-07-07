@@ -19,14 +19,38 @@
             <h2>For contact me please fill the fields below and click send </h2>
             <form action="index.html">
                 <p>
-                    <label>Name:</label><input type="text " name="Name" maxlength="50" />
+                    <label>Name:</label><input type="text " name="Name" maxlength="50" required="true"/>
                 </p>
                 <p>
-                    <label>E-mail:</label><input type="text" name="E-mail" maxlength="150" />
+                    <label>E-mail:</label><input type="text" name="E-mail" maxlength="150" required="true" />
                 </p>
                 <p>
                     <label>Coments:</label>
-                    <textarea name="Coments Section" cols="50" rows="4"></textarea>
+                    <textarea name="Coments Section" cols="50" rows="4" required="true"></textarea>
+                </p>
+                <p>
+                    <label>Sex:</label>
+                    <input type="radio" name="Sex" checked="true"/> <label>Feminine</label>
+                    <input type="radio" name="Sex"/> <label>Masculine</label>
+                </p>
+                <p>
+                    <label>Where do you hear from me?</label>
+                    <select name="know">
+                        <option selected>Github</option> 
+                        <option>LinkedIn</option>
+                        <option>Google</option>
+                        <option>Others</option>
+                    </select>
+                    <label>In case of "Others" please specify:</label>
+                    <input type="text" name="Others" />
+                </p>
+                <p>
+                    <input type="checkbox" name="Agree" value="Agree" />
+                    <label>I agree to recieve notifications when Tiago make any modifications in his codes</label>
+                </p>
+                <p>
+                    <input type="submit" name="Send" value="Send" />
+                    <input type="reset" name="ClearAll" value="Clear All" />
                 </p>
             </form>
         </main>
