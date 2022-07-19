@@ -1,1 +1,5 @@
-/* Estilos da pagina index */
+/* Index page styles */
+
+.cover-container figure img{
+    width: 100%;
+}

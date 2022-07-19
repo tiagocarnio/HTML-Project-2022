@@ -1,1 +1,11 @@
-/* Estilos globais para partes da página */
+/* Global styles for the page */
+/*logo boxway color: #20a5d4 */
+html{
+    height: 100;
+}
+body {
+    background-color: #a8cdf9;
+    font-family:sans-serif;
+    color: white;
+    margin: 0;
+}
