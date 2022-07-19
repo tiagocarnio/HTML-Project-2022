@@ -1,5 +1,40 @@
 /* Index page styles */
-
+/*
+Color palette: #20a5d4 blue
+Box colors: #ecc38f beige, #94643c brown, #b08052 light brown, #b48c74 pinkish
+*/
+main {
+    text-align: center;
+}
 .cover-container figure img{
-    width: 100%;
+    width:100%;
+}
+main h3.title {
+    font-size:1.2em;
+}
+
+.text-justify {
+    text-align: justify;
+    margin-left: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    .cover-container{
+        width:40%;
+    }
+
+    .cover-container {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .section-text {
+        display: inline-block;
+    }
+
+    main .section-final .text-final{
+        width: 70%;
+        margin:auto;
+        margin-bottom: 25px;
+        text-align: center;
+    }
 }

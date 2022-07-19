@@ -1,1 +1,17 @@
 /* Footers styles */
+
+footer {
+    text-align: center;
+    border-top: 1px solid #20a5d4;
+    padding: 20px;
+    width: 75%;
+    margin:auto;
+    text-transform: lowercase;
+}
+
+footer section span:first-child{
+    color:#94643c;
+}
+footer section span:last-child{
+    color:#94643c;
+}
