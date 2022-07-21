@@ -1,0 +1,17 @@
+.content-container {
+    width: 100%;
+    text-align: center;
+}
+
+.content-container img {
+    border-radius: 20px;
+    border: 5px double;
+}
+
+.text-center{
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    
+}

@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width-device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="public/css/mystyle.css" />
+        <link rel="stylesheet" href="public/css/contactus.css" />
         <link rel="stylesheet" href="public/css/footer.css" />
         <link rel="stylesheet" href="public/css/header.css" />
         <title>Contact Us</title>
@@ -21,25 +22,25 @@
             </nav>
         </header>
         <main>
-            <h1 class="title">Hey, you can talk to me through this page!</h1>
-            <h2>For contact me please fill the fields below and click send </h2>
-            <form action="index.html">
-                <p>
+            <h1 class="title text-center">Hey, you can talk to me through this page!</h1>
+            <h2 class="sub-title text-center">For contact me please fill the fields below and click send </h2>
+            <form action="index.html" class="contact-form horizontal-margin">
+                <div>
                     <label>Name:</label><input type="text " name="Name" maxlength="50" required="true"/>
-                </p>
-                <p>
+                </div>
+                <div>
                     <label>E-mail:</label><input type="text" name="E-mail" maxlength="150" required="true" />
-                </p>
-                <p>
+                </div>
+                <div>
                     <label>Coments:</label>
                     <textarea name="Coments Section" cols="50" rows="4" required="true"></textarea>
-                </p>
-                <p>
+                </div>
+                <div>
                     <label>Sex:</label>
-                    <input type="radio" name="Sex" checked="true"/> <label>Feminine</label>
-                    <input type="radio" name="Sex"/> <label>Masculine</label>
-                </p>
-                <p>
+                    <input type="radio" name="Sex" checked="true"/> <span>Feminine</span>
+                    <input type="radio" name="Sex"/> <span>Masculine</span>
+                </div>
+                <div>
                     <label>Where do you hear from me?</label>
                     <select name="know">
                         <option selected>Github</option> 
@@ -49,15 +50,15 @@
                     </select>
                     <label>In case of "Others" please specify:</label>
                     <input type="text" name="Others" />
-                </p>
-                <p>
+                </div>
+                <div>
                     <input type="checkbox" name="Agree" value="Agree" />
-                    <label>I agree to recieve notifications when Tiago make any modifications in his codes</label>
-                </p>
-                <p>
+                    <span>I agree to recieve notifications when Tiago make any modifications in his codes</span>
+                </div>
+                <div>
                     <input type="submit" name="Send" value="Send" />
                     <input type="reset" name="ClearAll" value="Clear All" />
-                </p>
+                </div>
             </form>
         </main>
         <footer>
